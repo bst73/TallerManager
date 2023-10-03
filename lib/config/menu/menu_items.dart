@@ -16,21 +16,40 @@ class MenuItem{
 
 const appMenuItems = <MenuItem>[
   MenuItem(
-    title: 'Botones', 
+    title: 'Cliente', 
     subTitle: 'Varios botones en flutter', 
-    link: '/buttons', 
-    icon: Icons.smart_button_outlined
+    link: '/cliente', 
+    icon: Icons.person_outline
     ),
   MenuItem(
-    title: 'Tarjetas', 
+    title: 'Ordenes', 
     subTitle: 'un contenedor estilizado', 
-    link: '/cards', icon: Icons.credit_card
+    link: '/ordenes', icon: Icons.list_alt_outlined
     ),
 
   MenuItem(
-    title: 'ProgressIndicator', 
+    title: 'Vehiculos', 
     subTitle: 'Generales y controlados', 
-    link: '/progress', icon: Icons.refresh_rounded
+    link: '/vehiculos', icon: Icons.car_repair_outlined
+    ),
+
+    MenuItem(
+    title: 'Recepcionar Vehiculos', 
+    subTitle: 'Generales y controlados', 
+    link: '/recepcionar_vehiculo', icon: Icons.car_crash_outlined
+    ),
+
+    MenuItem(
+    title: 'Entrega Vehiculos', 
+    subTitle: 'Generales y controlados', 
+    link: '/entrega_vehiculo', icon: Icons.car_rental_outlined
+    ),
+
+    MenuItem(
+    title: 'Reportes', 
+    subTitle: 'Generales y controlados', 
+    link: '/reportes', icon: Icons.list_alt_rounded
     )
+
 
 ];
