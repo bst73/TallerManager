@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class RecepcionarVehiculoScreen extends StatelessWidget {
 
-  static const String name = 'cliente_screen';
+  static const String name = 'recepcionar_vehiculo';
 
   const RecepcionarVehiculoScreen({super.key});
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class OrdenesScreen extends StatelessWidget {
 
-  static const String name = 'cliente_screen';
+  static const String name = 'ordenes_screen';
 
   const OrdenesScreen({super.key});
 
